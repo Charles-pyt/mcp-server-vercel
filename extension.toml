@@ -1,0 +1,14 @@
+# ──────────────────────────────────────────
+# Manifest de l'extension Zed
+# ──────────────────────────────────────────
+id          = "mcp-server-vercel"
+name        = "Vercel MCP Server"
+version     = "0.1.0"
+schema_version = 1
+authors     = ["Charles-pyt <charlestexier@proton.me>"]
+description = "Vercel's official MCP server for managing deployments, projects and environment variables from the Zed Agent Panel."
+repository  = "https://github.com/Charles-pyt/mcp-server-vercel"
+
+# Déclare le serveur MCP que l'extension fournit
+[context_servers.vercel]
+name = "Vercel"

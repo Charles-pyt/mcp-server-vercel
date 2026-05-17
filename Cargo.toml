@@ -1,0 +1,12 @@
+[package]
+name    = "mcp-server-vercel"
+version = "0.1.0"
+edition = "2021"
+
+# Compile en bibliothèque dynamique → WASM
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+# API officielle des extensions Zed
+zed_extension_api = "0.7.0"
